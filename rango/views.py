@@ -17,11 +17,3 @@ def about(request):
 	# Return a rendered response to send to the client.
 	return render(request, 'rango/about.html', context=context_dict)
 	
-
-
-# def index(request):
-# 	return HttpResponse("Rango says hey there partner! " + "<a href='/rango/about/'>About</a>")
-
-# # Part of the Exercise 3
-# def about(request):
-# 	return HttpResponse("Rango says here is the about page. " + "<a href='/rango/'>Index</a>")
